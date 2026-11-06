@@ -24,8 +24,8 @@
 /*
  * console
  */
-#define CFG_PROMPT          "frdArm# "   /* 命令行提示符 */
-#define CFG_CBSIZE          256             /* 控制台输入缓冲区大小 */
+#define CFG_PROMPT          "frndlyArmMini2440#"   /* 命令行提示符 */
+#define CFG_CBSIZE          256                    /* 控制台输入缓冲区大小 */
 #define CFG_PBSIZE          (CFG_CBSIZE + sizeof(CFG_PROMPT) + 16)
 #define CFG_MAXARGS         32              /* 最大命令参数个数 */
 #define CFG_BARGSIZE        CFG_CBSIZE      /* 启动参数缓冲区大小 */
